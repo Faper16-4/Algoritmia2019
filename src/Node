@@ -1,0 +1,23 @@
+public class Node{
+    String name;
+
+    public Node() {
+    }
+
+    public Node(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    @java.lang.Override
+    public java.lang.String toString() {
+        return "Node{" + "name='" + name + '\'' + '}';
+    }
+}
